@@ -13,7 +13,7 @@ public class GetStatuscode {
 		Response res = RestAssured.get("http://localhost:3000/posts");
 	System.out.println(res.getStatusCode());
 	
-	Assert.assertEquals(200,res.getStatusCode());
+	Assert.assertEquals(201,res.getStatusCode());
 	
 	System.out.println(res.contentType());
 	

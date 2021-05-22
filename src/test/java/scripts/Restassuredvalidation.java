@@ -20,7 +20,7 @@ public class Restassuredvalidation {
 	
 	ValidatableResponse resval = res.then();
 	
-	resval.assertThat().statusCode(200);
+	resval.assertThat().statusCode(201);
 	resval.assertThat().contentType(ContentType.JSON);
 	resval.log().all();
 	
