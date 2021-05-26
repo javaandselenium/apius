@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scripts.GetStatuscode">
+      <class name="parameters.Pathparaameter">
         <methods>
-          <include name="getprojectval"/>
+          <include name="togetrepro"/>
         </methods>
-      </class> <!-- scripts.GetStatuscode -->
+      </class> <!-- parameters.Pathparaameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
